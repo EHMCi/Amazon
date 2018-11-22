@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-11-22T20:38:11Z" name="FirstTest" finished-at="2018-11-22T20:39:31Z" duration-ms="80434">
+    <groups>
+    </groups>
+    <test started-at="2018-11-22T20:38:11Z" name="Command line test" finished-at="2018-11-22T20:39:31Z" duration-ms="80434">
+      <class name="FirstTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@49d904ec]" started-at="2018-11-22T20:38:11Z" name="setUp" finished-at="2018-11-22T20:38:34Z" duration-ms="23584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="MainPageControl()[pri:1, instance:FirstTest@49d904ec]" started-at="2018-11-22T20:38:34Z" name="MainPageControl" finished-at="2018-11-22T20:38:34Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPageControl -->
+        <test-method signature="loginControl()[pri:2, instance:FirstTest@49d904ec]" started-at="2018-11-22T20:38:35Z" name="loginControl" finished-at="2018-11-22T20:38:42Z" duration-ms="7395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginControl -->
+        <test-method signature="searchControl()[pri:3, instance:FirstTest@49d904ec]" started-at="2018-11-22T20:38:42Z" name="searchControl" finished-at="2018-11-22T20:38:47Z" duration-ms="5091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchControl -->
+        <test-method signature="responseSearchControl()[pri:4, instance:FirstTest@49d904ec]" started-at="2018-11-22T20:38:47Z" name="responseSearchControl" finished-at="2018-11-22T20:38:48Z" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseSearchControl -->
+        <test-method signature="openPage2Control()[pri:5, instance:FirstTest@49d904ec]" started-at="2018-11-22T20:38:48Z" name="openPage2Control" finished-at="2018-11-22T20:38:53Z" duration-ms="4908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage2Control -->
+        <test-method signature="addListControl()[pri:6, instance:FirstTest@49d904ec]" started-at="2018-11-22T20:38:53Z" name="addListControl" finished-at="2018-11-22T20:39:03Z" duration-ms="10453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addListControl -->
+        <test-method signature="openWishListControl()[pri:7, instance:FirstTest@49d904ec]" started-at="2018-11-22T20:39:03Z" name="openWishListControl" finished-at="2018-11-22T20:39:19Z" duration-ms="15238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWishListControl -->
+        <test-method signature="productControl()[pri:0, instance:FirstTest@49d904ec]" started-at="2018-11-22T20:39:19Z" name="productControl" finished-at="2018-11-22T20:39:31Z" depends-on-methods="FirstTest.openWishListControl" duration-ms="12389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productControl -->
+      </class> <!-- FirstTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- FirstTest -->
+</testng-results>
